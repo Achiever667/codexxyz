@@ -57,6 +57,10 @@
 .first__nav .nav-item .nav-link{
     color: #969292;
 }
+.first__nav .nav-item .nav-link:hover{
+    color: #fff;
+    background: #e81010;
+}
 .top{
     width: 100%;
     height: auto;
@@ -102,6 +106,7 @@
     
 }
 .info__hey .news__info .news__info__details{
+    padding-top: 10px;
     background: #e1dbdb;
     font-size: 12px;
     color: #000000;
@@ -109,7 +114,9 @@
 .title{
     color: #e02d2d;
 }
-
+.list-group-item{
+    margin: 2px 0px;
+}
 .selected{
     margin: 30px;
 }
@@ -186,6 +193,9 @@ iframe{
 }
 .list-group{
     margin: 20px;
+}
+.company__address{
+    color: #359ED7;
 }
 .info{
     width: 100%;
@@ -281,6 +291,7 @@ h3 span{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
 }
 
 .second__nav{
@@ -311,7 +322,7 @@ h3 span{
 }
 
 .carousel-caption{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .col{
     width: 100%;
@@ -329,7 +340,6 @@ h3 span{
 .news__info{
     padding: 0;
     width: 100%;
-    height: 12vh;
     margin: 20px 0px;
     border: 1px solid #e1dbdb;
 
@@ -337,7 +347,10 @@ h3 span{
     /* display: flex; */
 }
 
-
+.news__info{
+    width: 100%;
+    height: 18vh;
+}
 .news__info__img{
     padding: 0;
     box-sizing: border-box;
@@ -349,9 +362,10 @@ h3 span{
     height: 100%;
     
 }
- .info .news__info .news__info__details{
+  .news__info .news__info__details{
     background: #e1dbdb;
-    font-size: 12px;
+    padding: 20px 5px;
+    font-size: 18px;
     color: #000000;
 }
 .info{
@@ -404,7 +418,9 @@ h3 span{
     width: 300px;
     margin: auto;
 }
-
+.list-group-item{
+    margin: 10px 0px;
+}
 .link__img__icon__contain{
     margin: 30px;
 
