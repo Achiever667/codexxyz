@@ -204,6 +204,14 @@ iframe{
 }
 .about__icon i{
     font-size: 100px;
+    /* text-align: center; */
+    /* margin: 10px; */
+}
+.customers
+.about__icon {
+    /* font-size: 100px; */
+    margin: 10px 20px;
+    text-align: center;
 }
 .list-group{
     margin: 20px;
