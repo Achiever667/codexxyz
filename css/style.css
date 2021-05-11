@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+html body {
+    font-family: 'Open Sans', sans-serif;
+  }
 .second__nav__container{
     border-bottom: 1px solid #798bbd;
     margin: 30px 0px;
@@ -64,7 +68,7 @@
 .top{
     width: 100%;
     height: auto;
-    margin: 50px 0px;
+    margin: 0px 0px;
     box-sizing: border-box;
 
 }
@@ -93,7 +97,10 @@
     
     /* display: flex; */
 }
+.list-group a{
+    font-size: 12px;
 
+}
 .news__info__img{
     padding: 0;
     box-sizing: border-box;
@@ -215,7 +222,8 @@ iframe{
     text-align: left;
 }
 .about__details p{
-    font-size: 16px;
+    font-size: 14px;
+    color: #5e5b5b;
 
 }
 
@@ -418,6 +426,7 @@ h3 span{
     width: 300px;
     margin: auto;
 }
+
 .list-group-item{
     margin: 10px 0px;
 }
